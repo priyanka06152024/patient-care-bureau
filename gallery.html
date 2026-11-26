@@ -1,10 +1,246 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Gallery | Patient Care Bureau</title><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css"><script src="https://unpkg.com/lucide@latest"></script></head><body>
-<div class="announcement"><div class="ticker"><span>♥ Compassionate care, right where you need it</span><b>✦</b><span>Home & hospital assistance in Gurugram</span><b>✦</b><span>Call us: +91 84598 10728</span><b>✦</b></div></div><header class="header"><a class="brand-logo" href="index.html" aria-label="Patient Care Bureau home"><img src="assets/patient-care-bureau-logo.png" alt="Patient Care Bureau, Your Health, Our Priority"></a><button class="menu-toggle" aria-label="Open menu"><i data-lucide="menu"></i></button><nav class="nav"><a href="index.html">Home</a><a href="about.html">About us</a><a href="services.html">Services</a><a class="active" href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav><a class="header-call" href="tel:+918459810728"><i data-lucide="phone"></i><span>Talk to our team</span></a></header>
-<main><section class="page-hero"><div class="wrap"><span class="eyebrow light">OUR GALLERY</span><h1>Little moments.<br><em>Meaningful care.</em></h1><p>A visual look at the warmth, patience and support that good care can bring.</p><div class="breadcrumbs"><a href="index.html">Home</a> / Gallery</div></div></section><section class="section wrap"><div class="gallery-intro reveal"><span class="eyebrow">A FEW MOMENTS OF CARE</span><p>These are illustrative stock photographs used for the website design. Replace them with real, approved photographs of your team and services before launch. Always obtain consent before sharing identifiable patient images.</p></div><div class="full-gallery">
-<figure class="gallery-photo photo-wide reveal"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1400&q=85" alt="Healthcare professional with patient"><figcaption>Care with attention</figcaption></figure>
-<figure class="gallery-photo reveal"><img src="https://images.unsplash.com/photo-1576765608866-5b51046452a2?auto=format&fit=crop&w=900&q=85" alt="Caregiver supporting an older adult"><figcaption>Support at home</figcaption></figure>
-<figure class="gallery-photo reveal"><img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=85" alt="Medical professional"><figcaption>Here when you need us</figcaption></figure>
-<figure class="gallery-photo reveal"><img src="https://images.unsplash.com/photo-1576765607924-b1d6d7ddf9c5?auto=format&fit=crop&w=900&q=85" alt="Caregiver and older adult"><figcaption>Everyday companionship</figcaption></figure>
-<figure class="gallery-photo photo-wide reveal"><img src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=1400&q=85" alt="Healthcare supplies"><figcaption>Prepared with care</figcaption></figure>
-<figure class="gallery-photo reveal"><img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=900&q=85" alt="Healthcare professional"><figcaption>People-first support</figcaption></figure>
-</div></section></main><footer class="footer"><div class="wrap footer-grid"><div class="footer-brand"><a class="brand-logo footer-logo" href="index.html" aria-label="Patient Care Bureau home"><img src="assets/patient-care-bureau-logo.png" alt="Patient Care Bureau, Your Health, Our Priority"></a><p>Compassionate patient care support for families in Gurugram.</p></div><div><h4>Explore</h4><a href="about.html">About us</a><a href="services.html">Our services</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></div><div><h4>Get in touch</h4><a href="tel:+918459810728">+91 84598 10728</a><a href="tel:+919540674199">+91 95406 74199</a><a href="mailto:Info@patientcarebureaugurugram.com">Email us</a></div><div><h4>Our location</h4><p>Gate No. 2, 16, Old Delhi Gurgaon Road, Om Vihar, Gurugram, Haryana 122017</p></div></div><div class="wrap footer-bottom"><span>© <span class="year"></span> Patient Care Bureau</span><span>Made with care in Gurugram</span></div></footer><a class="floating-wa" href="https://wa.me/918459810728" target="_blank"><i data-lucide="message-circle"></i></a><script src="assets/script.js"></script></body></html>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gallery | Patient Care Bureau</title>
+    <meta
+      name="description"
+      content="Explore the Patient Care Bureau gallery and discover our compassionate patient care, elderly support and home healthcare assistance in Gurugram."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body>
+    <!-- Announcement Bar -->
+    <div class="announcement">
+      <div class="ticker">
+        <span>♥ Compassionate care, right where you need it</span>
+        <b>✦</b>
+        <span>Home & hospital assistance in Gurugram</span>
+        <b>✦</b>
+        <span>Call us: +91 84598 10728</span>
+        <b>✦</b>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <a
+        class="brand-logo"
+        href="index.html"
+        aria-label="Patient Care Bureau home"
+      >
+        <img
+          src="assets/patient-care-bureau-logo.png"
+          alt="Patient Care Bureau, Your Health, Our Priority"
+        />
+      </a>
+
+      <button class="menu-toggle" aria-label="Open menu">
+        <i data-lucide="menu"></i>
+      </button>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="services.html">Services</a>
+        <a class="active" href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <a class="header-call" href="tel:+918459810728">
+        <i data-lucide="phone"></i>
+        <span>Talk to our team</span>
+      </a>
+    </header>
+
+    <main>
+      <!-- Gallery Hero -->
+      <section
+        class="page-hero"
+        style="--hero: url('/assets/hero3.webp')"
+      >
+        <div class="wrap">
+          <span class="eyebrow light">OUR GALLERY</span>
+
+          <h1>
+            Little moments.<br />
+            <em>Meaningful care.</em>
+          </h1>
+
+          <p>
+            A visual look at the warmth, patience and support that good care
+            can bring.
+          </p>
+
+          <div class="breadcrumbs">
+            <a href="index.html">Home</a> / Gallery
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section class="section wrap">
+        <div class="gallery-intro reveal">
+          <span class="eyebrow">A FEW MOMENTS OF CARE</span>
+
+          <p>
+            Explore moments that reflect compassionate patient care,
+            professional assistance and everyday support. Always obtain
+            consent before sharing identifiable patient images.
+          </p>
+        </div>
+
+        <div class="full-gallery">
+
+          <!-- Image 1 -->
+          <figure class="gallery-photo photo-wide reveal">
+            <img
+              src="assets/img1.jpeg"
+              alt="Healthcare professional caring for a patient"
+              loading="lazy"
+            />
+            <figcaption>Care with attention</figcaption>
+          </figure>
+
+          <!-- Image 2 -->
+          <figure class="gallery-photo reveal">
+            <img
+              src="assets/img2.jpeg"
+              alt="Caregiver supporting an older adult"
+              loading="lazy"
+            />
+            <figcaption>Support at home</figcaption>
+          </figure>
+
+          <!-- Image 3 -->
+          <figure class="gallery-photo reveal">
+            <img
+              src="assets/img3.jpeg"
+              alt="Medical professional assisting a patient"
+              loading="lazy"
+            />
+            <figcaption>Here when you need us</figcaption>
+          </figure>
+
+          <!-- Image 4 -->
+          <figure class="gallery-photo reveal">
+            <img
+              src="assets/img4.jpeg"
+              alt="Caregiver providing patient assistance"
+              loading="lazy"
+            />
+            <figcaption>Everyday companionship</figcaption>
+          </figure>
+
+          <!-- Image 5 -->
+          <figure class="gallery-photo photo-wide reveal">
+            <img
+              src="assets/img5.jpeg"
+              alt="Healthcare and patient care services"
+              loading="lazy"
+            />
+            <figcaption>Prepared with care</figcaption>
+          </figure>
+
+          <!-- Gallery Image 1 -->
+          <figure class="gallery-photo reveal">
+            <img
+              src="assets/gallery1.webp"
+              alt="Elderly patient receiving compassionate care"
+              loading="lazy"
+            />
+            <figcaption>Compassionate elderly care</figcaption>
+          </figure>
+
+          <!-- Gallery Image 2 -->
+          <figure class="gallery-photo reveal">
+            <img
+              src="assets/gallery2.webp"
+              alt="Professional healthcare assistance"
+              loading="lazy"
+            />
+            <figcaption>People-first support</figcaption>
+          </figure>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="wrap footer-grid">
+
+        <div class="footer-brand">
+          <a
+            class="brand-logo footer-logo"
+            href="index.html"
+            aria-label="Patient Care Bureau home"
+          >
+            <img
+              src="assets/patient-care-bureau-logo.png"
+              alt="Patient Care Bureau, Your Health, Our Priority"
+            />
+          </a>
+
+          <p>
+            Compassionate patient care support for families in Gurugram.
+          </p>
+        </div>
+
+        <div>
+          <h4>Explore</h4>
+          <a href="about.html">About us</a>
+          <a href="services.html">Our services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+          <h4>Get in touch</h4>
+          <a href="tel:+918459810728">+91 84598 10728</a>
+          <a href="tel:+919540674199">+91 95406 74199</a>
+          <a href="mailto:Info@patientcarebureaugurugram.com">
+            Email us
+          </a>
+        </div>
+
+        <div>
+          <h4>Our location</h4>
+          <p>
+            Gate No. 2, 16, Old Delhi Gurgaon Road, Om Vihar,
+            Gurugram, Haryana 122017
+          </p>
+        </div>
+
+      </div>
+
+      <div class="wrap footer-bottom">
+        <span>
+          © <span class="year"></span> Patient Care Bureau
+        </span>
+        <span>Made with care in Gurugram</span>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a
+      class="floating-wa"
+      href="https://wa.me/918459810728"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat with us on WhatsApp"
+    >
+      <i data-lucide="message-circle"></i>
+    </a>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
